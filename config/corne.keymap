@@ -35,7 +35,7 @@
 
             bindings = <
 &trans         &kp EXCLAMATION  &kp AT_SIGN    &kp POUND         &kp DOLLAR    &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&kp BACKSPACE  &kp TILDE        &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &kp GRAVE      &kp UNDERSCORE  &kp EQUAL      &kp GRAVE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NON_US_BACKSLASH
+&kp BACKSPACE  &kp LG(C)        &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &kp LG(V)      &kp UNDERSCORE  &kp EQUAL      &kp GRAVE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NON_US_BACKSLASH
 &kp CAPS       &kp LALT         &kp LCTRL      &kp LSHFT         &kp LCMD      &kp ENTER      &kp MINUS       &kp PLUS       &kp TILDE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
                                                &trans            &trans        &trans         &trans          &trans         &trans
             >;
