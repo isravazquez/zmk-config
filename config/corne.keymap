@@ -14,19 +14,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        config_layer_combo {
-            bindings = <&mo 3>;
-            key-positions = <37 40>;
-        };
-
-        Clear_BT {
-            bindings = <&bt BT_CLR_ALL>;
-            key-positions = <13 14 15 16 38 36>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -83,6 +71,15 @@
 &bl BL_TOG       &bl BL_DEC       &bl BL_INC       &bl BL_CYCLE     &bl BL_SET 50    &bl BL_SET 100     &rgb_ug RGB_BRD  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &rgb_ug RGB_SPD
                                                    &trans           &trans           &trans             &trans           &trans          &trans
             >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        config_layer {
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 };
