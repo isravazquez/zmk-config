@@ -18,6 +18,11 @@
             bindings = <&mo 3>;
             key-positions = <37 40>;
         };
+
+        Clear_BT {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <13 14 15 16 36 37 38>;
+        };
     };
 
     keymap {
