@@ -21,7 +21,7 @@
 
         Clear_BT {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <13 14 15 16 36 37 38>;
+            key-positions = <13 14 15 16 38 36>;
         };
     };
 
